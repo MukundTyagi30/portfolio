@@ -1,0 +1,29 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980B9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="200" fill="url(#grad3)"/>
+  
+  <!-- Abstract Profile Silhouette -->
+  <circle cx="200" cy="160" r="70" fill="#ECF0F1"/>
+  
+  <!-- Body shape -->
+  <path d="M200 230 L200 320 Q130 320, 110 270 L110 260 Q140 250, 200 230 Q260 250, 290 260 L290 270 Q270 320, 200 320 Z" fill="#ECF0F1"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="170" cy="150" r="10" fill="#2980B9"/>
+  <circle cx="230" cy="150" r="10" fill="#2980B9"/>
+  <path d="M170 180 Q200 210, 230 180" stroke="#2980B9" stroke-width="5" fill="transparent"/>
+  
+  <!-- Data scientist symbolic elements -->
+  <circle cx="320" cy="80" r="30" fill="#ECF0F1" opacity="0.5"/>
+  <circle cx="80" cy="320" r="30" fill="#ECF0F1" opacity="0.5"/>
+  <line x1="100" y1="100" x2="300" y2="300" stroke="#ECF0F1" stroke-width="3" opacity="0.5"/>
+  <line x1="80" y1="200" x2="320" y2="200" stroke="#ECF0F1" stroke-width="3" opacity="0.5"/>
+  <line x1="200" y1="80" x2="200" y2="320" stroke="#ECF0F1" stroke-width="3" opacity="0.5"/>
+</svg>

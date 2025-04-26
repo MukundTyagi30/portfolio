@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="spotifyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1DB954" />
+      <stop offset="100%" stop-color="#191414" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" rx="15" fill="#191414" />
+  
+  <!-- Main content area -->
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="url(#spotifyGradient)" opacity="0.9" />
+
+  <!-- Spotify logo -->
+  <circle cx="200" cy="125" r="60" fill="#1DB954" />
+  <path d="M200,85 C227,85 248,106 248,133 C248,161 227,181 200,181 C172,181 152,161 152,133 C152,106 172,85 200,85 M219,114 C194,100 174,107 172,108 C170,109 168,113 171,115 C172,116 174,115 177,116 C193,121 206,128 216,135 C219,137 223,133 219,130 C217,127 214,124 219,114 M213,138 C191,126 177,130 169,132 C166,133 165,136 167,138 C168,139 170,139 173,139 C186,140 197,146 206,152 C208,154 212,150 209,148 C207,145 205,143 213,138 M209,160 C190,151 181,153 174,154 C172,155 171,157 172,159 C173,160 174,160 176,160 C186,161 194,166 201,170 C203,171 206,168 204,166 C203,164 202,161 209,160" fill="white" />
+  
+  <!-- Simple mood faces -->
+  <circle cx="100" cy="100" r="15" fill="#FFDD67" stroke="#191414" stroke-width="2" />
+  <path d="M92,95 L95,95 M105,95 L108,95 M93,105 Q100,110 107,105" stroke="#191414" stroke-width="1.5" />
+  
+  <circle cx="300" cy="100" r="15" fill="#65B4EB" stroke="#191414" stroke-width="2" />
+  <path d="M292,95 L295,95 M305,95 L308,95 M293,108 Q300,103 307,108" stroke="#191414" stroke-width="1.5" />
+  
+  <circle cx="100" cy="160" r="15" fill="#8FCACA" stroke="#191414" stroke-width="2" />
+  <path d="M92,155 L95,155 M105,155 L108,155 M93,165 L107,165" stroke="#191414" stroke-width="1.5" />
+  
+  <circle cx="300" cy="160" r="15" fill="#FF5A5A" stroke="#191414" stroke-width="2" />
+  <path d="M292,155 L295,155 M305,155 L308,155 M93,165 Q100,170 107,165" transform="translate(200, 0)" stroke="#191414" stroke-width="1.5" />
+  
+  <!-- Project title -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="white" text-anchor="middle">SPOTIFY MOOD PREDICTOR</text>
+</svg>

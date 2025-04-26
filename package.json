@@ -1,0 +1,20 @@
+{
+  "name": "mukund-tyagi-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Mukund Singh Tyagi",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "portfolio",
+    "tailwindcss",
+    "data science",
+    "machine learning"
+  ],
+  "author": "Mukund Singh Tyagi",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

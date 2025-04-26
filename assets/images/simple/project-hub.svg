@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#1a6dff"/>
+      <stop offset="100%" stop-color="#c822ff"/>
+    </linearGradient>
+    
+    <linearGradient id="hubGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2f3ff"/>
+    </linearGradient>
+    
+    <linearGradient id="connectionsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e2f3ff"/>
+    </linearGradient>
+    
+    <!-- Add a subtle glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background with rounded corners -->
+  <rect width="300" height="200" rx="15" fill="url(#backgroundGradient)" />
+  
+  <!-- Subtle grid pattern -->
+  <path d="M0,40 L300,40 M0,80 L300,80 M0,120 L300,120 M0,160 L300,160" stroke="#ffffff" stroke-width="0.5" opacity="0.1" />
+  <path d="M60,0 L60,200 M120,0 L120,200 M180,0 L180,200 M240,0 L240,200" stroke="#ffffff" stroke-width="0.5" opacity="0.1" />
+  
+  <!-- Central hub circle - moved up -->
+  <circle cx="150" cy="65" r="35" fill="#1a1a5a" stroke="url(#hubGradient)" stroke-width="2" opacity="0.9" filter="url(#glow)" />
+  
+  <!-- Connected nodes and lines - adjusted positions -->
+  <line x1="150" y1="65" x2="100" y2="105" stroke="url(#connectionsGradient)" stroke-width="1.5" stroke-dasharray="3,2" />
+  <line x1="150" y1="65" x2="200" y2="105" stroke="url(#connectionsGradient)" stroke-width="1.5" stroke-dasharray="3,2" />
+  <line x1="150" y1="65" x2="100" y2="40" stroke="url(#connectionsGradient)" stroke-width="1.5" stroke-dasharray="3,2" />
+  <line x1="150" y1="65" x2="200" y2="40" stroke="url(#connectionsGradient)" stroke-width="1.5" stroke-dasharray="3,2" />
+  
+  <circle cx="100" cy="40" r="10" fill="#1a1a5a" stroke="url(#hubGradient)" stroke-width="1" filter="url(#glow)" />
+  <circle cx="200" cy="40" r="10" fill="#1a1a5a" stroke="url(#hubGradient)" stroke-width="1" filter="url(#glow)" />
+  <circle cx="100" cy="105" r="10" fill="#1a1a5a" stroke="url(#hubGradient)" stroke-width="1" filter="url(#glow)" />
+  <circle cx="200" cy="105" r="10" fill="#1a1a5a" stroke="url(#hubGradient)" stroke-width="1" filter="url(#glow)" />
+  
+  <!-- Project name - modern typography with better spacing -->
+  <text x="150" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">PROJECT</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">HUB</text>
+</svg> 

@@ -1,0 +1,33 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#skyGrad)"/>
+  <rect width="400" height="60" y="140" fill="#8B4513"/>
+  
+  <!-- Tank -->
+  <rect x="120" y="120" width="160" height="35" rx="5" fill="#556B2F"/>
+  <rect x="140" y="100" width="120" height="25" rx="3" fill="#556B2F"/>
+  <rect x="180" y="75" width="40" height="35" fill="#556B2F"/>
+  <rect x="100" y="155" width="200" height="10" rx="5" fill="#2F4F4F"/>
+  <circle cx="130" cy="165" r="12" fill="#2F4F4F"/>
+  <circle cx="170" cy="165" r="12" fill="#2F4F4F"/>
+  <circle cx="210" cy="165" r="12" fill="#2F4F4F"/>
+  <circle cx="250" cy="165" r="12" fill="#2F4F4F"/>
+  
+  <!-- Cannon -->
+  <rect x="220" y="88" width="120" height="10" rx="2" fill="#556B2F"/>
+  
+  <!-- Explosion -->
+  <circle cx="360" cy="80" r="20" fill="#FF4500"/>
+  <circle cx="360" cy="80" r="15" fill="#FFD700"/>
+  <circle cx="360" cy="80" r="10" fill="white"/>
+  
+  <!-- Title -->
+  <text x="60" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="white" stroke="black" stroke-width="1">Tank Game</text>
+</svg> 
